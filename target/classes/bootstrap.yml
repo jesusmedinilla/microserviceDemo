@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: microservicestring
+  cloud:
+    config:
+      enabled: true
+      uri: http://user:mysecret@localhost:8888
+      failFast: true
